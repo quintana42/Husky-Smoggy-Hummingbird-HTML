@@ -1,0 +1,154 @@
+.hero10-container1 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+}
+ 
+.hero10-column {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  height: 100%;
+  align-items: flex-start;
+  animation-name: fadeInLeft;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: center;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.hero10-content {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.hero10-actions {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.hero10-container2 {
+  width: 666px;
+  height: 888px;
+  display: flex;
+  align-items: flex-end;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/dadwithcopper-700w.jpg");
+  background-position: center;
+}
+ 
+.hero10-text10 {
+  align-self: flex-end;
+  text-align: center;
+  border-color: rgba(25, 24, 24, 0);
+  border-width: 20px;
+}
+ 
+.hero10-fragment1 {
+  display: contents;
+}
+ 
+.hero10-text11 {
+  display: inline-block;
+}
+ 
+.hero10-fragment2 {
+  display: contents;
+}
+ 
+.hero10-text12 {
+  display: inline-block;
+}
+ 
+.hero10-fragment3 {
+  display: contents;
+}
+ 
+.hero10-text13 {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.69);
+}
+ 
+.hero10-fragment4 {
+  display: contents;
+}
+ 
+.hero10-text14 {
+  display: inline-block;
+}
+ 
+.hero10-fragment5 {
+  display: contents;
+}
+ 
+.hero10-text19 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .hero10-container1 {
+    flex-direction: column;
+  }
+  .hero10-content {
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+}
+ 
+@media(max-width: 767px) {
+  .hero10-heading1 {
+    text-align: center;
+  }
+  .hero10-content1 {
+    text-align: center;
+  }
+  .hero10-actions {
+    width: 100%;
+    justify-content: center;
+  }
+  .hero10-container2 {
+    width: 475px;
+    height: 738px;
+    margin-right: 0px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .hero10-heading1 {
+    text-align: center;
+  }
+  .hero10-content1 {
+    width: 376px;
+    height: 403px;
+    align-self: center;
+    text-align: center;
+  }
+  .hero10-actions {
+    flex-direction: column;
+  }
+  .hero10-button1 {
+    width: 100%;
+  }
+  .hero10-button2 {
+    width: 100%;
+  }
+  .hero10-container2 {
+    width: 464px;
+    height: 792px;
+  }
+  .hero10-text14 {
+    font-size: 16px;
+  }
+}

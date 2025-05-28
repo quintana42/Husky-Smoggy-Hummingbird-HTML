@@ -1,0 +1,67 @@
+.banner211-container1 {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.banner211-max-width {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.banner211-container2 {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  z-index: 100;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.banner211-title {
+  text-align: center;
+}
+ 
+.banner211-text1 {
+  text-align: center;
+}
+ 
+.banner211-button {
+  z-index: 100;
+}
+ 
+.banner211-video {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+ 
+.banner211-fragment1 {
+  display: contents;
+}
+ 
+.banner211-text3 {
+  display: inline-block;
+}
+ 
+.banner211-fragment2 {
+  display: contents;
+}
+ 
+.banner211-text4 {
+  display: inline-block;
+}
+ 
+.banner211-fragment3 {
+  display: contents;
+}
+ 
+.banner211-text5 {
+  display: inline-block;
+}
